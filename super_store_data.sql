@@ -209,9 +209,10 @@ order by order_year) as prev_revenue from yearly_sales
 )
 select *,round(((total_revenue-prev_revenue)/prev_revenue)* 100,2) as growth_prct from growth_cal;
 
--- write sql query to find the running total over order date
-select date(`order date`) order_date,sales,sum(sales) over(order by `order date`) as sales_growth
-from train;
+-- write sql query to find the running total to display the daily trends
+select date(`order date`) order_date,round(sum(sales),1)as daily_sales,
+round(sum(sum(sales)) over(order by `order date`),1) as sales_growth
+from train group by `order date`;
 
 -- write sql query to find the third highest total categorial amount using function
 delimiter //
