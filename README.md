@@ -83,7 +83,7 @@ in each category**
 
 **Supplier negotiations**
 
-### Buisiness Qquestion
+### Buisiness Question
 
 **With this query we can know average sales  by each category and percentile contributuon of each category**
 
