@@ -110,11 +110,8 @@ in each category**
 ### Buisiness Qquestion
 
 **write sql query  to calculate quantity and total_revenue of ship mode**
-```
-select `Ship Mode`,count(*),round(sum(sales),1) 
-as total_revenue from train 
-group by `Ship Mode`;
-```
+
+
 **write sql query to check order  details on 2017-11-08**
 
 >select * from train where date(`Order Date`) = '2017-11-08';
