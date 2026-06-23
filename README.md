@@ -87,6 +87,7 @@ in each category**
 
 **With this query we can know average sales  by each category and percentile contributuon of each category**
 
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/15746917-9399-43ff-83b6-f1aecf94152a" />
 
 **Write sql query to check quantity and total sales of categories by region wise**
 
