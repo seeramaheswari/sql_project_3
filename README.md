@@ -32,11 +32,20 @@
 
 ### Business Problem Solved
 ***
-**Identitfy the top performing cities in each region**
+**Detect Top performing and underperforming regions**
 
-**Detect underperforming regions**
+**Detect Best sales month in year and check is there any trend**
+
+**Detect what are best performing sales category among all**
 
 **Decide where to increase marketing, inventory, or sales teams**
+
+### Business Question
+
+**write sql query to know which cities are top performing in each region  and which sub-categories are top performing
+in each category**
+
+
 
 ### Business Question
 
