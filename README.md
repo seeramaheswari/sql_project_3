@@ -83,18 +83,10 @@ in each category**
 
 **Supplier negotiations**
 
-**Write Sql query to check top 5 orders**
+### Buisiness Qquestion
 
+**With this query we can know average sales  by each category and percentile contributuon of each category**
 
-**Write sql query to calculate average sales by each category**
-
-```
-select category,round(avg(sales),1) as total_revenue 
-from train group by category order by total_revenue desc;
-```
-**Write sql query to retrieve unique category names**
-
->select distinct(category) from train;
 
 **Write sql query to check quantity and total sales of categories by region wise**
 
