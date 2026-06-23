@@ -68,7 +68,7 @@ in each category**
 **Create retention programs**
 
 **Reduce customer acquisition cost**
-***
+
 ### Business Question
 
 **Write sql query to find Which products/categories should we push or discontinue?**
@@ -85,7 +85,6 @@ in each category**
 
 **Write Sql query to check top 5 orders**
 
->select * from train order by sales desc limit 5;
 
 **Write sql query to calculate average sales by each category**
 
