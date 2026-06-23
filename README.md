@@ -31,7 +31,7 @@
 <img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/eb9aedf6-3323-4cff-adf7-223be00975fe" />
 
 ### Business Problem Solved
-***
+
 **Detect Top performing and underperforming regions**
 
 **Detect Best sales month in year and check is there any trend**
@@ -45,7 +45,15 @@
 **write sql query to know which cities are top performing in each region  and which sub-categories are top performing
 in each category**
 
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/b3914093-38ba-4d1d-8ef1-019d5f9568c7" />
 
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/4c819651-016e-43fc-abf4-5e723f14336b" />
+
+### Business Problem Solved
+
+**In which month we should invest more and which month we need to reduce the sales**
+
+**In which sub-categories  we should invest more in each category**
 
 ### Business Question
 
