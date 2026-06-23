@@ -73,6 +73,8 @@ in each category**
 
 **Write sql query to find Which products/categories should we push or discontinue?**
 
+
+
 ### Business Problem Solved
 ***
 **Inventory optimization**
@@ -81,15 +83,6 @@ in each category**
 
 **Supplier negotiations**
 ***
-```
-select Category,
-`Sub-Category`,
-count(*) as order_count,
-round(sum(sales),2) as total_sales
-from train 
-group by Category,`Sub-Category`
-order by order_count desc;
-```
 **Write Sql query to check top 5 orders**
 
 >select * from train order by sales desc limit 5;
