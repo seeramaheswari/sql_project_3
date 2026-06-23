@@ -93,6 +93,10 @@ in each category**
 
 <img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/8c6fbe47-a548-46ba-982c-3110359f6e78" />
 
+### Buisiness Solutions 
+
+**Adjusting the budget ie investing more money on categories best performing regions**
+
 **Calculate the max orders by region and category**
 ```
 select region,Category,round(max(total_sales),1)as max_sales
