@@ -115,11 +115,12 @@ in each category**
 
 ### Business Question
 
-**Write sql to find monthly trend analysis?**
+**write sql to display the regional revenue performance and growth over month**
+
 
 ### Buisiness Problem Solved:
 
-**Forecast demand**
+**Detect Forecast demand**
 
 **Seasonal inventory planning**
 
