@@ -2,6 +2,13 @@
 
 ## Data Cleaning
 
+ ### Droping the unwanted columns
+ ```
+alter table train drop column Country;
+alter table train drop column State;
+alter table train drop column `Postal Code`;
+alter table train drop column `Product ID`;
+```
 ### Find Missing Values 
 ```
 select * from train
@@ -35,6 +42,8 @@ update train set `Ship Date`=STR_TO_DATE(`Ship Date`, '%d/%m/%Y');
 ***
 **Identify top-performing regions**
 
+**Identitfy the top performing cities in each region**
+
 **Detect underperforming regions**
 
 **Decide where to increase marketing, inventory, or sales teams**
@@ -45,6 +54,14 @@ round(sum(sales),2) as Total_sales
 from train
 group by MONTH(`Order Date`) ,Region, Category
 order by MONTH(`Order Date`),Total_sales desc;
+```
+```
+with cte as(
+select region,city ,round(sum(sales),2)as total_revenue ,rank()
+over(partition by region order by sum(sales) desc) as revenue_rank
+from train group by region,city
+)
+select region,city,total_revenue from cte where revenue_rank<=2;
 ```
 ### Business Question
 
