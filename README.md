@@ -13,11 +13,11 @@
 ## Super Store Analysis and Insights
 
 **Viewing cleaned Super store sales  dataset**
-<img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/f6c78949-d62b-4ddd-84f7-491daab80ff6" />
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/f6c78949-d62b-4ddd-84f7-491daab80ff6" />
 
 **Desribing the Columns names and datatype of the dataset**
 
->desc train;
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/c8497df4-1f5d-4cdd-9a09-9270e86fe3e2" />
 
 ### Business Question
 
