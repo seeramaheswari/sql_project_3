@@ -24,6 +24,11 @@
 
 **Write sql query to find how the business performing overall and across dimensions (time, region, category)?**
 
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/3114c05e-dd0c-4940-97de-64f24af1585c" />
+
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/c19f3f76-c22b-46e0-aa0b-458be44f3e35" />
+
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/eb9aedf6-3323-4cff-adf7-223be00975fe" />
 
 ### Business Problem Solved
 ***
