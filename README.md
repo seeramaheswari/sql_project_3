@@ -14,11 +14,11 @@
 
 **Viewing cleaned Super store sales  dataset**
 
-<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/f6c78949-d62b-4ddd-84f7-491daab80ff6" />
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/f6c78949-d62b-4ddd-84f7-491daab80ff6" />
 
 **Desribing the Columns names and datatype of the dataset**
 
-<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/c8497df4-1f5d-4cdd-9a09-9270e86fe3e2" />
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/c8497df4-1f5d-4cdd-9a09-9270e86fe3e2" />
 
 ### Business Question
 
@@ -91,7 +91,7 @@ in each category**
 
 **Write sql query to check quantity and total sales of categories by region wise**
 
-<img width="1550" height="906" alt="Image" src="https://github.com/user-attachments/assets/4a4817e8-8c2e-4286-9e1a-bedd620f6386" />
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/4a4817e8-8c2e-4286-9e1a-bedd620f6386" />
 
 ### Buisiness Solutions 
 
@@ -117,6 +117,7 @@ in each category**
 
 **write sql to display the regional revenue performance and growth over month**
 
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/d78e0d2c-461c-466c-822c-6df063e159f0" />
 
 ### Buisiness Problem Solved:
 
