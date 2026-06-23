@@ -13,6 +13,7 @@
 ## Super Store Analysis and Insights
 
 **Viewing cleaned Super store sales  dataset**
+
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/f6c78949-d62b-4ddd-84f7-491daab80ff6" />
 
 **Desribing the Columns names and datatype of the dataset**
@@ -32,14 +33,9 @@
 **Detect underperforming regions**
 
 **Decide where to increase marketing, inventory, or sales teams**
-***
-```
-select MONTH(`Order Date`) as Month,Region,Category,
-round(sum(sales),2) as Total_sales 
-from train
-group by MONTH(`Order Date`) ,Region, Category
-order by MONTH(`Order Date`),Total_sales desc;
-```
+
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/3226aaa1-8956-4935-8b9a-1f2ec1393db2" />
+
 ```
 with cte as(
 select region,city ,round(sum(sales),2)as total_revenue ,rank()
