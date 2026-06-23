@@ -1,34 +1,18 @@
-# sql_project_3
+# Retail Sales Analysis Using SQL
 
 ## Data Cleaning
 
- ### Droping the unwanted columns
- ```
-alter table train drop column Country;
-alter table train drop column State;
-alter table train drop column `Postal Code`;
-alter table train drop column `Product ID`;
-```
-### Find Missing Values 
-```
-select * from train
-where sales is null
-or `Order Date` is null
-or `Customer Name` is null;
-```
-**Write sql query to change the date format from'dd-mm-yyyy' to dd-mm-yyyy' by using STR_TO_DATE function**
+ **Droping the unwanted columns**
 
-```
-update train set `Order Date`=STR_TO_DATE(`Order Date`, '%d/%m/%Y');
+**Find Missing Values**
 
-update train set `Ship Date`=STR_TO_DATE(`Ship Date`, '%d/%m/%Y');
+>There is no missing values in the data**
 
-```
+**Changed the date format from'dd-mm-yyyy' to dd-mm-yyyy' by using STR_TO_DATE function**
+
 ## Super Store Analysis and Insights
 
-**Viewing Super store dataset**
-
->SELECT * FROM super_store_sales_data.train;
+**Viewing cleaned Super store sales  dataset**
 
 **Desribing the Columns names and datatype of the dataset**
 
