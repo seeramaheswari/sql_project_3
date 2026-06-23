@@ -91,11 +91,8 @@ in each category**
 
 **Write sql query to check quantity and total sales of categories by region wise**
 
-```
-select region,category,count(*) as cust_count,
-round(sum(sales),1) as total_sales
-from train group by region,category;
-```
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/8c6fbe47-a548-46ba-982c-3110359f6e78" />
+
 **Calculate the max orders by region and category**
 ```
 select region,Category,round(max(total_sales),1)as max_sales
