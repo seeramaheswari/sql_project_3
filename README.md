@@ -111,29 +111,12 @@ in each category**
 
 **write sql query  to calculate quantity and total_revenue of ship mode**
 
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/3ea05b69-d46d-4e7a-8560-f74c4bfecf22" />
 
-**write sql query to check order  details on 2017-11-08**
-
->select * from train where date(`Order Date`) = '2017-11-08';
-
-### Buisiness Problem
-
- **write sql query unique Sub-Category and their total orders and total_revenue generated**
-***
-### Buisiness problem solved:
-**Investing more  on top selling products**
-
-**Adjust pricing strategy per products**
-***
-```
-select (`Sub-Category`),count(`Sub-Category`) as quantity,
-round(sum(sales),1) as total_revenue from train
-group by `Sub-Category` order by quantity desc;
-```
 ### Business Question
 
 **Write sql to find monthly trend analysis?**
-***
+
 ### Buisiness Problem Solved:
 
 **Forecast demand**
@@ -141,17 +124,7 @@ group by `Sub-Category` order by quantity desc;
 **Seasonal inventory planning**
 
 **Financial planning**
-***
-```
-select YEAR(`Order Date`) as year,MONTH(`Order Date`) as month,
-round(sum(sales),1) from train group by 1,2 order by 1,2 asc;
-```
-**Rank categories by sales**
-```
-select category ,round(sum(sales),1) as total_sales ,
-rank() over(order by sum(sales) desc) as sales_rank
-from train group by category;
-```
+
 
 
 
