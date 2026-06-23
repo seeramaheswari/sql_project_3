@@ -73,16 +73,16 @@ in each category**
 
 **Write sql query to find Which products/categories should we push or discontinue?**
 
-
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/da65c8c4-f23c-45f7-af73-b5ae66678901" />
 
 ### Business Problem Solved
-***
+
 **Inventory optimization**
 
 **Product portfolio decisions**
 
 **Supplier negotiations**
-***
+
 **Write Sql query to check top 5 orders**
 
 >select * from train order by sales desc limit 5;
