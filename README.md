@@ -58,8 +58,10 @@ in each category**
 ### Business Question
 
 **Write sql query to find Who are our valuable customers and how loyal are they?**
-***
-**Business Problem Solved**
+
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/2b5365a4-794b-4ffb-8b52-bd93b4da567c" />
+
+### Business Problem Solved
 
 **Identify loyal customers**
 
@@ -67,18 +69,6 @@ in each category**
 
 **Reduce customer acquisition cost**
 ***
-```
-select 
-`Customer ID` ,
-Region,Category,
-`Sub-Category`,
-count(`Order ID`) as order_count,
-round(sum(Sales),2) as total_sales
-from train 
-group by 
-`Customer ID`,Region ,
-Category,`Sub-Category` Having order_count>1 ;
-```
 ### Business Question
 
 **Write sql query to find Which products/categories should we push or discontinue?**
