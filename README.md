@@ -91,20 +91,24 @@ in each category**
 
 **Write sql query to check quantity and total sales of categories by region wise**
 
+<img width="1550" height="906" alt="Image" src="https://github.com/user-attachments/assets/4a4817e8-8c2e-4286-9e1a-bedd620f6386" />
+
+### Buisiness Solutions 
+
+**Adjusting the budget ie investing more money on categories based on performance in each region. **
+
+### Buisiness Qquestion
+
+**Calculate the max orders by region and category**
+
 <img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/8c6fbe47-a548-46ba-982c-3110359f6e78" />
 
 ### Buisiness Solutions 
 
-**Adjusting the budget ie investing more money on categories best performing regions**
+**Allocating more money on category best performance by region wise**
 
-**Calculate the max orders by region and category**
-```
-select region,Category,round(max(total_sales),1)as max_sales
-from (
-select region,category,sum(sales) as total_sales
-from train group by Region,Category
-) as subquery group by Region,Category;
-```
+### Buisiness Qquestion
+
 **write sql query  to calculate quantity and total_revenue of ship mode**
 ```
 select `Ship Mode`,count(*),round(sum(sales),1) 
