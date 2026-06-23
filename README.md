@@ -24,26 +24,15 @@
 
 **Write sql query to find how the business performing overall and across dimensions (time, region, category)?**
 
+
 ### Business Problem Solved
 ***
-**Identify top-performing regions**
-
 **Identitfy the top performing cities in each region**
 
 **Detect underperforming regions**
 
 **Decide where to increase marketing, inventory, or sales teams**
 
-<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/3226aaa1-8956-4935-8b9a-1f2ec1393db2" />
-
-```
-with cte as(
-select region,city ,round(sum(sales),2)as total_revenue ,rank()
-over(partition by region order by sum(sales) desc) as revenue_rank
-from train group by region,city
-)
-select region,city,total_revenue from cte where revenue_rank<=2;
-```
 ### Business Question
 
 **Write sql query to find Who are our valuable customers and how loyal are they?**
